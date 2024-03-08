@@ -1,3 +1,5 @@
+package Variables;
+
 public class VariableTypes {
    static int c=10;
     static int e=10;
