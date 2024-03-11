@@ -10,4 +10,8 @@ public class PrivateAccessModifier {
         System.out.println(a+b);
 
     }
+
+    public void getTwoNumbersAddition(){
+        addTwoNumbers();
+    }
 }
