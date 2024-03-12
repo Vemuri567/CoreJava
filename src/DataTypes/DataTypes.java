@@ -1,3 +1,4 @@
+package DataTypes;
 
 public class DataTypes {
     static int e;
