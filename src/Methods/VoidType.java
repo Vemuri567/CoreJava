@@ -27,6 +27,20 @@ public class VoidType {
         return c;
     }
 
+    public boolean message(){
+        boolean flag=true;
+        return flag;
+    }
+
+    public String returnName(){
+        return "RaviShankar";
+    }
+
+    public double retrunAmount()
+    {
+        return 10.05;
+    }
+
     public static void main(String[] args)
     {
         int a=30;
