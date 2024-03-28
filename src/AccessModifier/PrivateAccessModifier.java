@@ -12,6 +12,6 @@ public class PrivateAccessModifier {
     }
 
     public void getTwoNumbersAddition(){
-        addTwoNumbers();
+       // addTwoNumbers();
     }
 }

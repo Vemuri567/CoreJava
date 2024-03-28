@@ -7,7 +7,7 @@ Method2 c=new Method2();
         Method2 d=new Method2();
 c.div();
 d.sname();
-system.out.println(d.sname());
+System.out.println(d.sname());
 System.out.println(c.div());
 
 }
@@ -17,9 +17,9 @@ public int div() {
     int c=a/b;
     return c;
 }
-protected static string sname()
+protected static String sname()
 {
-    string s= 't';
+    String s= "t";
     return s;
 }
 }
