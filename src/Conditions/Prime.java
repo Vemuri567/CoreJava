@@ -2,7 +2,7 @@ package Conditions;
 
 public class Prime {
 
-    public int Primenum(int a)
+    /*public int Primenum(int a)
 
     {
 return a;
@@ -21,6 +21,6 @@ return a;
         {
             System.out.println("number is not prime");
         }
-    }
+    }*/
 }
 
