@@ -1,6 +1,6 @@
 package LoopStatements;
 
-public class WhileLoop {
+public class WhileLoopPrograms {
     public void factorial() {
         int fact = 1;
         int i = 1;
@@ -44,7 +44,7 @@ public class WhileLoop {
     }
 
     public static void main(String[] args) {
-        WhileLoop obj = new WhileLoop();
+        WhileLoopPrograms obj = new WhileLoopPrograms();
         obj.factorial();
         obj.fibonacci();
         obj.starpattern();
