@@ -26,13 +26,13 @@ public class WhileLoopPrograms {
         }
     }
 
-   public void starpattern() {
+    public void starpattern() {
         char ch = '*';
-        int i,j;
-        i=1;
-       System.out.println("The star pattern is");
+        int i, j;
+        i = 1;
+        System.out.println("The star pattern is");
         while (i <= 5) {
-             j = 1;
+            j = 1;
             while (j <= i) {
                 System.out.print(ch);
                 j++;
@@ -43,12 +43,11 @@ public class WhileLoopPrograms {
         }
     }
 
-    public static void main(String[] args) {
-        WhileLoopPrograms obj = new WhileLoopPrograms();
+    public static void main(String[] args){
+        WhileLoopPrograms obj=new WhileLoopPrograms();
         obj.factorial();
         obj.fibonacci();
         obj.starpattern();
     }
-
 
 }
