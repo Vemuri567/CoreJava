@@ -42,12 +42,52 @@ public class WhileLoopPrograms {
 
         }
     }
+    public void sumof10nos(){
+        int sum=0;
+        int i=1;
+        System.out.print("sumof10nos is: ");
+        while(i<=10){
+            sum=sum+i;
+            i++;
+        }
+        System.out.println(sum);
+    }
+    public void avgoffirst10nos(){
+        int sum=0;
+        int i=1;
+        while(i<=10){
+            sum=sum+i;
+            i++;
+        }
+        float avg=(float)sum/10;
+        System.out.println("avgoffirst10nos is: " +avg);
+    }
+
+    public void evenoddnumber(){
+        int i=0;
+        while(i<=10){
+            if(i%2==0){
+                System.out.println("Even number is  "+i);
+            }
+            else if(i%2==1){
+                System.out.print("odd number is "+i);
+            }
+            System.out.println();
+
+            i++;
+        }
+
+    }
+
 
     public static void main(String[] args){
         WhileLoopPrograms obj=new WhileLoopPrograms();
         obj.factorial();
         obj.fibonacci();
         obj.starpattern();
+        obj.sumof10nos();
+        obj.avgoffirst10nos();
+        obj.evenoddnumber();
     }
 
 }
