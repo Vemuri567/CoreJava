@@ -6,7 +6,29 @@ public class StringExamples {
         //string declararions by using 2 ways
         String s="india";
         String s2="india";
+        String s8=new String("india");
         String s1=new String("India");
+        System.out.println(s8.equals(s1));
+        System.out.println(s8.equalsIgnoreCase(s1));
+        boolean flag=false;
+        if(s==s2){
+            flag=true;
+        }
+        else{
+            flag=false;
+        }
+        System.out.println("given two strings s and s2 by using ==:"+flag);
+        flag=false;
+        if(s==s8){
+            flag=true;
+        }
+        else{
+            flag=false;
+        }
+        System.out.println("given two strings s and s8 by using ==:"+flag);
+        System.out.println("given two strings s and s2 by using equals method :"+s.equals(s2));
+        System.out.println("given two strings s and s8 by using equals method:"+s.equals(s8));
+
         System.out.println("given string s1 value is:"+s1);
         System.out.println("given string s value is:"+s);
         //to find length of a string
