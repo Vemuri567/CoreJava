@@ -5,6 +5,7 @@ public class StringExamples {
     public static void main(String[] args) {
         //string declararions by using 2 ways
         String s="india";
+        String s2="india";
         String s1=new String("India");
         System.out.println("given string s1 value is:"+s1);
         System.out.println("given string s value is:"+s);
@@ -52,6 +53,9 @@ public class StringExamples {
         String s5=1+2+"abc"+4+5;
         System.out.println(s5);
 
-        String s6="India is my country";
+        String s6="vemuri@naveen@";
+        String res=s6.replaceAll("@","");
+        System.out.println(res);
     }
+
 }
