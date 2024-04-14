@@ -40,8 +40,8 @@ public class StringExamples {
             System.out.println("convert string to int:"+Integer.valueOf(s3));
             int a=5;
             System.out.println("Convert int into string:"+String.valueOf(a));*/
-            char ch=s.charAt(i);
             //to convert charcter datattype value into string: String.valueOf(charcter)
+            char ch=s.charAt(i);
             if(!duplicateString.contains(String.valueOf(ch))){
                 duplicateString=duplicateString+ch;
             }
