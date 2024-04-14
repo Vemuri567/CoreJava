@@ -26,6 +26,7 @@ public class ReplaceString {
         int count=0;
         for(int i=0;i<=splittedString.length-1;i++)
         {
+            boolean f=Pattern.matches("[^A-Za-z0-9]",splittedString[i]);
             Matcher m = p.matcher(splittedString[i]);
             // boolean b = m.matches();
             boolean b = m.find();
