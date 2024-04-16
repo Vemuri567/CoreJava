@@ -1,33 +1,29 @@
 package Strings;
 
 public class SubStrings {
-    public static void main(String[] args) {
-        String name="VemuriNaveen";
-        /**two ways of a substring :: stringvariable.substring(startindex)
-         stringvariable.substring(startindex,endindex)
-         startindex is include and endindex is exclude
+    public int getindexposition(String originalString, String expectedstringposition){
+        return originalString.indexOf(expectedstringposition);
 
-         */
-        String name1=name.substring(0);
-        System.out.println(name.substring(0));
-        System.out.println(name.substring(4));
-        System.out.println(name.substring(0,3));
-        System.out.println(name.length());
-        String s="higoodmorninghowareyou";
-        /** Find inex in a string::string.indexof(startchar)**/
-        if(s.contains("goodmorning"))
-        {
-            String substring="goodmorning";
-            int substringlength=substring.length();
-            int startindexpos=s.indexOf("goodmorning");
-            System.out.println(s.substring(startindexpos,substringlength+startindexpos));
-        }
-        if(s.contains("g")){
-            int startindexpos=s.indexOf('g');
-            System.out.println(s.indexOf('g'));
-            int endindex=s.indexOf('g',startindexpos+1);
-            System.out.println(s.indexOf('g',startindexpos+1));
-            System.out.println(s.substring(startindexpos,endindex+1));
-        }
     }
+    public String getsubstring(String originalString , String  substring){
+        String s = originalString;
+        String exceptedsubstring = substring;
+        String result="";
+        if (s.contains(substring)) {
+            int length = substring.length();
+            int staringindexposition = s.indexOf(substring);
+            result=s.substring(staringindexposition, length + staringindexposition);
+        }
+        return result;
+
+    }
+    public static void main(String[] args) {
+        SubStrings obj = new SubStrings();
+         int index = obj.getindexposition("my country is india and ", "india");
+        System.out.println(index);
+         String result= obj.getsubstring("my country is india and ", "india");
+        System.out.println(result);
+
+    }
+
 }
