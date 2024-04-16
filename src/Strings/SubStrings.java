@@ -20,7 +20,8 @@ public class SubStrings {
     public static void main(String[] args) {
         SubStrings obj = new SubStrings();
          int index = obj.getindexposition("my country is india and ", "india");
-        String result= obj.getsubstring("my country is india and ", "india");
+        System.out.println(index);
+         String result= obj.getsubstring("my country is india and ", "india");
         System.out.println(result);
 
     }
