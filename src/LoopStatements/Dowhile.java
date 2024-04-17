@@ -7,14 +7,14 @@ public class Dowhile {
         do{
             sum=sum+i;
             i++;
-        }while(i<=0);
+        }while(i<=10);
         System.out.println(sum);
     }
 
     public void sumOf10NosInWhileLoop(){
         int sum=0;
         int i=1;
-        while(i<=0){
+        while(i<=10){
             sum=sum+i;
             i++;
         }
