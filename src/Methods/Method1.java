@@ -17,5 +17,10 @@ public class Method1 {
             float c= a*b;
             return c;
         }
+
+        public float multiply(float a,float b){
+            return a*b;
+        }
+
     }
 
