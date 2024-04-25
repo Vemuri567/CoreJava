@@ -2,6 +2,10 @@ package OOPSConcpets.Inheritance;
 
 public class Main {
     public static void main(String[] args) {
+        C grandChildobj=new C(10);
+        grandChildobj.ParentBalance();
+        grandChildobj.ChildBlanace();
+        grandChildobj.GrnadChildMethod();
         /*B.c=30;
         B.d=40;
         System.out.println(B.c);
