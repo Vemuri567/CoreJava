@@ -1,6 +1,7 @@
 package OOPSConcpets.Inheritance;
 
 public class A {
+    final int d=20;
     static int c=10;
     int a;
  public A(int a)
