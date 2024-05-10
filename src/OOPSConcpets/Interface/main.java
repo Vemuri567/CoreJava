@@ -9,6 +9,6 @@ public class main {
         RBI obj1=new Customer();
         obj1.kyc();
         obj1.ROI();
-        obj1.abc();
+        //obj1.abc();
     }
 }
