@@ -5,6 +5,6 @@ public class Main {
         Employee emp=new Employee();
         emp.setEmpId("120s");
         String empid=emp.getEmpId();
-        System.out.println(empId);
+        System.out.println(empid);
     }
 }
